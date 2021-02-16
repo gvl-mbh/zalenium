@@ -8,7 +8,9 @@ metadata:
 rules:
 - apiGroups:
   - ""
+  {{- if .Values.hub.openshift.available -}}
   attributeRestrictions: null
+  {{- end -}}
   resources:
   - pods
   verbs:
@@ -20,7 +22,9 @@ rules:
   - watch
 - apiGroups:
   - ""
+  {{- if .Values.hub.openshift.available -}}
   attributeRestrictions: null
+  {{- end -}}
   resources:
   - pods/exec
   verbs:
