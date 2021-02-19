@@ -1,13 +1,13 @@
 name: zalenium
-version: 3.141.61
+version: 3.141.63
 apiVersion: v2
 type: application
 description: Chart for selenium grid
 keywords:
   - qa
-home: https://github.com/zalando/zalenium
+home: https://github.com/gvl-mbh/zalenium
 sources:
-  - https://github.com/zalando/zalenium
+  - https://github.com/gvl-mbh/zalenium
 maintainers:
   - name: diemol
     email: diemol@gmail.com
