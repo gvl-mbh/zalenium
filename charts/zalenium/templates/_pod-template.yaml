@@ -70,6 +70,7 @@ spec:
           - name: Authorization
             value: Basic {{ template "basicAuth.b64" . }}
           {{- end}}
+        initialDelaySeconds: 20
         timeoutSeconds: {{ .Values.hub.readinessTimeout }}
       env:
         - name: ZALENIUM_KUBERNETES_CPU_REQUEST

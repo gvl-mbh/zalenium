@@ -2,7 +2,24 @@ apiVersion: v1
 entries:
   zalenium:
   - apiVersion: v2
-    created: "2021-02-19T13:57:23.89778+01:00"
+    created: "2021-02-19T14:19:18.645091+01:00"
+    description: Chart for selenium grid
+    digest: 992645f323942572ec80249612d3f9b6aa1b446efc2d8cfa8c2f93a3f878c3e2
+    home: https://github.com/gvl-mbh/zalenium
+    keywords:
+    - qa
+    maintainers:
+    - email: diemol@gmail.com
+      name: diemol
+    name: zalenium
+    sources:
+    - https://github.com/gvl-mbh/zalenium
+    type: application
+    urls:
+    - zalenium-3.141.65.tgz
+    version: 3.141.65
+  - apiVersion: v2
+    created: "2021-02-19T14:19:18.634371+01:00"
     description: Chart for selenium grid
     digest: 015fdbe623ff5e4beff5d1e1d305f8bb4f83236b7706ca453df22c49b3dc6e4f
     home: https://github.com/gvl-mbh/zalenium
@@ -19,7 +36,7 @@ entries:
     - zalenium-3.141.64.tgz
     version: 3.141.64
   - apiVersion: v2
-    created: "2021-02-19T13:57:23.890325+01:00"
+    created: "2021-02-19T14:19:18.629133+01:00"
     description: Chart for selenium grid
     digest: abb0e52a7298351f45cb53d00aee9238f1742f7ec549aa2f32025f070bc10b6f
     home: https://github.com/gvl-mbh/zalenium
@@ -35,4 +52,4 @@ entries:
     urls:
     - zalenium-3.141.63.tgz
     version: 3.141.63
-generated: "2021-02-19T13:57:23.875507+01:00"
+generated: "2021-02-19T14:19:18.613399+01:00"

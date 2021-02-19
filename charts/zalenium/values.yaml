@@ -21,10 +21,10 @@ hub:
   port: 4444
 
   ## Timeout for probe Hub liveness via HTTP request on Hub console
-  livenessTimeout: 1
+  livenessTimeout: 2
 
   ## Timeout for probe Hub readiness via HTTP request on Hub console
-  readinessTimeout: 1
+  readinessTimeout: 2
 
   ## Pod Security Context
   ## ref: https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
