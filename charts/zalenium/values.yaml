@@ -139,7 +139,6 @@ hub:
       enabled: false
       hostname:
       tls:
-    available: false
       #  termination: edge
       #  insecureEdgeTerminationPolicy: Redirect
 
